@@ -206,11 +206,19 @@ html,body {
 
 #programming {
     background-color:#d9d7df;
-    text-align: center;
+    /* text-align: center; */
     font-size: 1.4rem;
-    padding: 40px 10%;
+    padding: 40px 0;
+}
 
+#programming .prog {
+    padding: 0;
+    text-align: center;
+}
 
+#programming .adventure {
+    text-align: center;
+    padding: 0 10% 20px 10%;
 }
 
 #programming .coding {
@@ -219,6 +227,7 @@ html,body {
     position: relative;
     right: -60px;
     width: 70%;
+    padding: 0 10%;
 }
 
 #programming .coding img {
